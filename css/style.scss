@@ -15,6 +15,7 @@ $RSYellow: #BC8D25;
 
 html {
     font-size: 16px;
+    font-family: arial; 
 }
 
 body {
@@ -56,6 +57,7 @@ h3 {
 
 .left {
     margin-right:auto;
+    margin-top: 25px;
 }
 
 .right {
@@ -79,51 +81,10 @@ li {
 
 //**NAV *********************//
 
-.sf-menu {
-	margin: 12px 0;
-	padding:0;
-	width:100%;
-	background: $RSLogoBlue;
-	border-top: 1px solid rgba(255,255,255,.5);
-    background: rgb(17, 19, 70);
-    border-left: 1px solid rgb(255, 255, 255);
+.navbar {
+	margin-top: 30px 0 -10px 0;
+	background-color: lightblue; 
 }
-
-
-.nav li {
-	background: $RSLogoBlue;
-	list-style-type: none;
-}
-
-.nav li a {
-	color: $primaryTextonDark;
-    border-left: 1px solid #fff;
-    border: 1px solid #dFeEFF;
-    padding: .75em 1em;
-    text-decoration: none;
-    zoom: 1;
-}
-
-.nav li {
-	background: $RSLogoBlue;
-}
-
-.nav li a:hover {
-	color: $primaryTextonDark;
-}
-
-
-//**@media (max-width: 760px) {
-
-		//**.sf-menu {
-			//**display: none;
-	//**	}
-
-		//**.blockMenu {
-		//**	display: inline-block;
-		//**}
-   //**	}
-
 
 //** SCROLL INTRO *********//
 
@@ -146,6 +107,8 @@ li {
     font-size: 1.25rem;
     color: $primaryTextonDark;
     line-height: 1.42857143;
+      box-shadow: 1px 1px 1.5px #888888;
+
 }
 
 .main h3 {
@@ -172,9 +135,12 @@ li {
 	height: 60px;
 }
 
-.serviceImg img {
+.serviceImg img,
+.staffImg img{
 	max-height: 186px;
 }
+
+
 
 //**footer **************//
 
@@ -218,6 +184,7 @@ li {
 
 //******** Contact 2 *****/
 
+
 .contact-2 .col-md-4{
 	background-color: #ffffff;
 }
@@ -241,3 +208,5 @@ li {
 .contact-2 .btn {
 	margin-bottom: 20px;
 }
+
+

@@ -168,6 +168,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 
 html {
   font-size: 16px;
+  font-family: arial;
 }
 
 body {
@@ -201,6 +202,7 @@ h3 {
 
 .left {
   margin-right: auto;
+  margin-top: 25px;
 }
 
 .right {
@@ -219,36 +221,9 @@ li {
   list-decoration: none;
 }
 
-.sf-menu {
-  margin: 12px 0;
-  padding: 0;
-  width: 100%;
-  background: #111346;
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  background: #111346;
-  border-left: 1px solid white;
-}
-
-.nav li {
-  background: #111346;
-  list-style-type: none;
-}
-
-.nav li a {
-  color: #D8D8D8;
-  border-left: 1px solid #fff;
-  border: 1px solid #dFeEFF;
-  padding: 0.75em 1em;
-  text-decoration: none;
-  zoom: 1;
-}
-
-.nav li {
-  background: #111346;
-}
-
-.nav li a:hover {
-  color: #D8D8D8;
+.navbar {
+  margin-top: 30px 0 -10px 0;
+  background-color: lightblue;
 }
 
 .gallery {
@@ -268,6 +243,7 @@ li {
   font-size: 1.25rem;
   color: #D8D8D8;
   line-height: 1.42857143;
+  box-shadow: 1px 1px 1.5px #888888;
 }
 
 .main h3 {
@@ -294,7 +270,8 @@ li {
   height: 60px;
 }
 
-.serviceImg img {
+.serviceImg img,
+.staffImg img {
   max-height: 186px;
 }
 

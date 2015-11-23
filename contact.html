@@ -2,23 +2,17 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>RS Geomatics || Staff</title>
+	<title>RS Geomatics || Contact</title>
 	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 	<meta name="description" content="RS Geomatics, Cadastral Surveying">
 	<meta name="keywords" content="land survey,land surveys,ontario,land surveyors,ontario land surveying,land surveyors,land surveying,property surveys,property plans,survey plans, GIS, cadastral survey, engineering, geodetic survey, mapping">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-	<link href='css/bootstrap.css' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" media="screen" href="css/superfish.css">
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<link href='css/bootstrap.min.css' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" rel='stylesheet' href="css/style.css">
 	<link rel="stylesheet" href="css/flickity.css" media="screen">
 	<link rel="shortcut icon" href="img/favicon.ico">
-
-	
-	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-
-	<script src="js/hoverIntent.js"></script>
-	<script src="js/superfish.js"></script>
+	<script src="js/bootstrap.min.js"</script>
 
 </head>
 <body>
@@ -35,9 +29,48 @@
 
   	<h3>Rajakulendhrran Shaajieeshane Surveying Ltd</h3>
 
-			<div class="nav">
 
-						<ul class="sf-menu blockMenu">
+
+			<nav class="navbar navbar-default">
+				  <div class="container-fluid">
+				    <!-- Brand and toggle get grouped for better mobile display -->
+				    <div class="navbar-header">
+				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+				    </div>
+
+				    <!-- Collect the nav links, forms, and other content for toggling -->
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				      <ul class="nav navbar-nav">
+				        <li><a href="index.html">Home</a></li>
+									<li><a href="projects.html">Projects</a></li>
+									<li><a href="services.html">Services</a></li>
+									<li><a href="#">Resources</a></li>
+									<li><a href="#">Index</a></li>
+									<li><a href="staff.html">Staff</a></li>
+									<li><a href="#">Gallery</a></li>
+									<li><a href="contact.html">Contact</a></li>	
+
+				      </ul>
+				     
+				    </div><!-- /.navbar-collapse -->
+				  </div><!-- /.container-fluid -->
+				</nav>
+
+			</div>
+
+
+
+
+
+
+					<!--<ul class="hiddenDrop">
+						<li>Menu</li>
+							<ul class="hidden">
 									<li class="current"><a href="index.html">Home</a></li>
 									<li><a href="projects.html">Projects</a></li>
 									<li><a href="services.html">Services</a></li>
@@ -46,13 +79,26 @@
 									<li><a href="staff.html">Staff</a></li>
 									<li><a href="#">Gallery</a></li>
 									<li><a href="contact.html">Contact</a></li>	
-				</ul>
+							</ul>
+									
+					</ul>
+						<ul class="nav">
+									<li class="current"><a href="index.html">Home</a></li>
+									<li><a href="projects.html">Projects</a></li>
+									<li><a href="services.html">Services</a></li>
+									<li><a href="#">Resources</a></li>
+									<li><a href="#">Index</a></li>
+									<li><a href="staff.html">Staff</a></li>
+									<li><a href="#">Gallery</a></li>
+									<li><a href="contact.html">Contact</a></li>	
+									
 
-			</div><!--nav-->
+				</ul><!--nav-->
 
+		</div><!--menu-->
 
 		
-
+<div class="wrapper">
 
 			<div class="main">
 
@@ -64,20 +110,24 @@
             <div data-scroll-reveal class="row">
                 <div class="col-md-4 col-md-offset-4 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 text-center">
                     <h4>Contact Us</h4>
-                    <p>Have any questions? Want to get in touch? Contact us using the form below.</p>
-                    <form form action="http://focuspocus.io/magic/shane@rsgeomatics.ca" 
-							method="POST" class="contact-form" role="form">
-                        <input name="name" id="name" class="form-control" type="text" placeholder="Name">
-                        <input name="tel" id="tel" class="form-control" type="text" placeholder="Your Telephone">
-                        <input name="mail" id="mail" class="form-control" type="text" placeholder="Your e-mail">
-                        <textarea name="comment" id="comment" class="form-control" rows="5" placeholder="Message"></textarea>
-                        <button type="submit" name="contact-submit" id="submit_contact" class="btn btn-primary btn-block">Submit</button>
-                    </form>
-    
+                    <p>Have any questions? Want to get in touch? Contact us via <a href="mailto:shane@rsgeomatics.ca">Email</a> or use the form below.</p>
+
+				    <form name="0.1_htmlform" class="contact-form" method="POST" action="html_form_send.php" target="_blank" onsubmit="try {return window.confirm(&quot;You are submitting information to an external page.\nAre you sure?&quot;);} catch (e) {return false;}">
+						    <input name="name" type="text" placeholder="Name">
+						    <input name="tel" type="text" placeholder="Telephone">
+						    <input name="email" type="text" placeholder="Email">
+						    <textarea name="message" rows="5" placeholder="Message"></textarea>
+						    <button type="submit" name="submit" class="btn btn-primary btn-block" value="Send!">Submit</button>
+					</form>
+
+
+
                 </div>
             </div>
         </div>
     </section>
+
+    								
 
 	   
 			</div><!--main-->
@@ -151,17 +201,6 @@
 
 	<script>
 
-		<!-- initialise Superfish -->
-
-		jQuery(document).ready(function() {
-			jQuery('ul.sf-menu').superfish({
-				delay:       1000,                            // one second delay on mouseout
-				animation:   {opacity:'show',height:'show'},  // fade-in and slide-down animation
-				speed:       'fast',                          // faster animation speed
-				autoArrows:  false                            // disable generation of arrow mark-up
-			});
-		});
-
 
 		<!--Smooth Scroll -->
 			    $('a[href*=#]:not([href=#])').click(function() { 
@@ -176,6 +215,16 @@
 			            }
 			        }
 			    });
+
+
+<!--testing out AJAX for form-->
+
+$("#contactForm").submit(function(event){
+    // cancels the form submission
+    event.preventDefault();
+    submitForm();
+});
+
 
 
 
