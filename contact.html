@@ -12,23 +12,24 @@
 	<link rel="stylesheet" rel='stylesheet' href="css/style.css">
 	<link rel="stylesheet" href="css/flickity.css" media="screen">
 	<link rel="shortcut icon" href="img/favicon.ico">
-	<script src="js/bootstrap.min.js"</script>
+	<script src="js/bootstrap.min.js"></script>
 
 </head>
 <body>
 
 	<div class="wrapper">
 
-	 <ul class="logoSection">
-			 <li class="left"><a href="index.html"><img src="img/RSlogo.jpg" alt="RS Geomatics Logo"></a></li>
+ 	<ul class="logoSection">
+		    <li class="left"><a href="index.html"><img src="img/RSlogo.jpg" alt="RS Geomatics Logo"></a></li>
 		    <li class="right"><a href="http://www.aols.org/"><img src="img/logoAOLS.jpg" alt="AOLS Logo"></a></li>
 		    <li class="right"><a href="contact.html">
 		    	<br>
 		    	Get Quote</a></li>
   	</ul><!--logoSection-->
 
-  	<h3>Rajakulendhrran Shaajieeshane Surveying Ltd</h3>
+  	  	<h3>Rajakulendhrran Shaajieeshane Surveying Ltd</h3>
 
+			<div class="nav">
 
 
 			<nav class="navbar navbar-default">
@@ -46,7 +47,7 @@
 				    <!-- Collect the nav links, forms, and other content for toggling -->
 				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				      <ul class="nav navbar-nav">
-				        <li><a href="index.html">Home</a></li>
+				        			<li><a href="index.html">Home</a></li>
 									<li><a href="projects.html">Projects</a></li>
 									<li><a href="services.html">Services</a></li>
 									<li><a href="#">Resources</a></li>
@@ -61,43 +62,9 @@
 				  </div><!-- /.container-fluid -->
 				</nav>
 
-			</div>
+			</div><!--nav-->
 
 
-
-
-
-
-					<!--<ul class="hiddenDrop">
-						<li>Menu</li>
-							<ul class="hidden">
-									<li class="current"><a href="index.html">Home</a></li>
-									<li><a href="projects.html">Projects</a></li>
-									<li><a href="services.html">Services</a></li>
-									<li><a href="#">Resources</a></li>
-									<li><a href="#">Index</a></li>
-									<li><a href="staff.html">Staff</a></li>
-									<li><a href="#">Gallery</a></li>
-									<li><a href="contact.html">Contact</a></li>	
-							</ul>
-									
-					</ul>
-						<ul class="nav">
-									<li class="current"><a href="index.html">Home</a></li>
-									<li><a href="projects.html">Projects</a></li>
-									<li><a href="services.html">Services</a></li>
-									<li><a href="#">Resources</a></li>
-									<li><a href="#">Index</a></li>
-									<li><a href="staff.html">Staff</a></li>
-									<li><a href="#">Gallery</a></li>
-									<li><a href="contact.html">Contact</a></li>	
-									
-
-				</ul><!--nav-->
-
-		</div><!--menu-->
-
-		
 <div class="wrapper">
 
 			<div class="main">
@@ -127,11 +94,6 @@
         </div>
     </section>
 
-    								
-
-	   
-			</div><!--main-->
-
 
 
 			<div class="footer">
@@ -158,6 +120,7 @@
 					<li><a href="http://www.psc-gpc.ca/" target="_blank"><img src="img/logoPSC.jpg" alt="Professional Surveyors Canada Logo"></a></li>
 					<!--<li><a href="http://www.sssi.org.au/" target="_blank"><img src="img/LogoSSSiNSW.jpg" alt="NSW Surveying & Spatial Sciences Institute Logo">
 					<li><a href="http://www.surveyors.org.au/" target="_blank"><img src="img/logoISNSW.jpg" alt="Institution of Surveyors NSW Inc Logo">-->
+					
 				</ul>
 				</div>
 			</div><!--row-->
@@ -173,62 +136,23 @@
 	</div><!--wrapper-->
 
 
-		
-
 
 		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 
-		<!-- flickity script -->
-		<script src="js/flickity.pkgd.min.js"></script>
 
-		<script>
-			$(function() {
-				$('.gallery').flickity({
-		  // options
-		 		 cellAlign: 'left',
-		 		 pageDots: false,
-		 		 wrapAround: true,
-		  		autoPlay: 1700,
-		  		freeSCroll: true,
-		  		contain: true
-		});
-
-				
-			});
-		</script>
-
-	<!-- end of flickity script -->
+	<!--Google Analytics -->
 
 	<script>
+			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-
-		<!--Smooth Scroll -->
-			    $('a[href*=#]:not([href=#])').click(function() { 
-			        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') || location.hostname == this.hostname) {
-			            var target = $(this.hash);
-			            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-			               if (target.length) {
-			                 $('html,body').animate({
-			                     scrollTop: target.offset().top
-			                }, 1000);
-			                return false;
-			            }
-			        }
-			    });
-
-
-<!--testing out AJAX for form-->
-
-$("#contactForm").submit(function(event){
-    // cancels the form submission
-    event.preventDefault();
-    submitForm();
-});
-
-
-
+			  ga('create', 'UA-69805180-1', 'auto');
+			  ga('send', 'pageview');
 
 	</script>
+
 
 
 
