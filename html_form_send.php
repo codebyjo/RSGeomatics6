@@ -6,7 +6,7 @@ if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
  
-    $email_to = "shane@rsgeomatics.ca";
+    $email_to = "rsgeomatics@gmail.com";
  
     $email_subject = "Message from Website";
  
@@ -216,45 +216,47 @@ $headers = 'From: '.$email_from."\r\n".
           </section>
 
 
+ 
+      <div class="footer">
 
-            <div class="footer">
+      <div class="row">
 
-            <div class="row">
+        <div class="col-md-4">
 
-              <div class="col-md-4">
+          <p>Rajakulendhrran Shaajieeshane Surveying Ltd</p>
+          <p>Ontario Land Surveyors</p>
+          <p>Address: 41 Crittenden Square</p>
+          <p>   Toronto, ON M1B 1V2</p>
+        </div>
+        <div class="col-md-4">
+          <p><a href="tel:4167080545">Tel: 416-708-0545</a></p>
+          <p>Fax: 416-321-9574</p>
+          <p><a href="mailto:info@rsgeomatics.ca" target="_blank">Email: info@rsgeomatics.ca</a></p>
+          <p><a href="http://www.rsgeomatics.ca/" target="_blank">www.rsgeomatics.ca</a></p>
+        </div>
+        <div class="col-md-4">
+        <ul>
+          <li><a href="http://www.aols.org/" target="_blank"><img src="img/logoAOLS2.jpg" alt="Association of Ontario Land Surveyors Logo"></a></li>
+          <li><a href="https://www.oacett.org/" target="_blank"><img src="img/logoOACETT.jpg" alt="Ontario Association of Certified Engineering Technicians and Technologists Logo"></a></li>
+          <li><a href="http://www.psc-gpc.ca/" target="_blank"><img src="img/logoPSC.jpg" alt="Professional Surveyors Canada Logo"></a></li>
+          <!--<li><a href="http://www.sssi.org.au/" target="_blank"><img src="img/LogoSSSiNSW.jpg" alt="NSW Surveying & Spatial Sciences Institute Logo">
+          <li><a href="http://www.surveyors.org.au/" target="_blank"><img src="img/logoISNSW.jpg" alt="Institution of Surveyors NSW Inc Logo">-->
 
-                <p>Rajakulendhrran Shaajieeshane Surveying Ltd</p>
-                <p>Ontario Land Surveyors</p>
-                <p>Address: 41 Crittenden Square</p>
-                <p>   Toronto, ON M1B 1V2</p>
-              </div>
-              <div class="col-md-4">
-                <p><a href="tel:4167080545">Tel: 416-708-0545</a></p>
-                <p>Fax: 416-321-9574</p>
-                <p><a href="mailto:shane@rsgeomatics.ca" target="_blank">Email: shane@rsgeomatics.ca</a></p>
-                <p><a href="http://www.rsgeomatics.ca/" target="_blank">www.rsgeomatics.ca</a></p>
-              </div>
-              <div class="col-md-4">
-              <ul>
-                <li><a href="http://www.aols.org/" target="_blank"><img src="img/logoAOLS2.jpg" alt="Association of Ontario Land Surveyors Logo"></a></li>
-                <li><a href="https://www.oacett.org/" target="_blank"><img src="img/logoOACETT.jpg" alt="Ontario Association of Certified Engineering Technicians and Technologists Logo"></a></li>
-                <li><a href="http://www.psc-gpc.ca/" target="_blank"><img src="img/logoPSC.jpg" alt="Professional Surveyors Canada Logo"></a></li>
-                <!--<li><a href="http://www.sssi.org.au/" target="_blank"><img src="img/LogoSSSiNSW.jpg" alt="NSW Surveying & Spatial Sciences Institute Logo">
-                <li><a href="http://www.surveyors.org.au/" target="_blank"><img src="img/logoISNSW.jpg" alt="Institution of Surveyors NSW Inc Logo">-->
-                
-              </ul>
-              </div>
-            </div><!--row-->
+        </ul>
+        </div>
+      </div><!--row-->
 
-            </div><!--footerText-->
-            </div><!--footer-->
+      </div><!--footerText-->
+      </div><!--footer-->
 
-              <p class="text-center">Copyright 2015 RS Geomatics || Website design: <a href="http://www.codebyjo.com">Codebyjo</a></p>
-            </div>
+        <p class="text-center">Copyright 2015 RS Geomatics || Website design: <a href="http://www.codebyjo.com">Codebyjo</a></p>
+      </div>
 
 
 
-        </div><!--wrapper-->
+  </div><!--wrapper-->
+
+
 
 
 
